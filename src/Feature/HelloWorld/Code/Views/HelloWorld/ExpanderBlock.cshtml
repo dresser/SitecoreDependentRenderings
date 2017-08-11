@@ -1,0 +1,8 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Mvc.Presentation.RenderingModel
+<div id="@Model.Item.ID.ToShortID().ToString()">
+    <h2><a href="#" class="clickable-header">Expander Block</a></h2>
+    <div class="expandable-content" style="display: none;">
+        <p>Lorem ipsum dolor sit amet</p>
+    </div>
+</div>

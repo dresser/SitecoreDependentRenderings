@@ -1,0 +1,17 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Mvc.Presentation.RenderingModel
+<div id="hello-world-rendering">
+    <h2>This is the Hello World Controller Rendering</h2>
+    <p>Click the button below. If jquery has been included, you will see a message.</p>
+    <button id="cta-button">Click Me!!!</button>
+    <div id="inner-message" style="display: none;">
+        <h3>Hello World</h3>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#cta-button').click(function() {
+            $('#inner-message').toggle();
+        });
+    });
+</script>

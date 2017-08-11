@@ -1,0 +1,11 @@
+﻿@using Sitecore.Mvc
+@model Sitecore.Mvc.Presentation.RenderingModel
+<script type="text/javascript">
+    $(document).ready(function () {
+        var id = '@Model.Item.ID.ToShortID().ToString()';
+        $('#' + id + ' .clickable-header').click(function (e) {
+            e.preventDefault();
+            $('#' + id + ' .expandable-content').toggle();
+        });
+    });
+</script>

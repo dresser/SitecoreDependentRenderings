@@ -1,0 +1,10 @@
+﻿@using Sitecore.Mvc
+<div>
+    <h1 class="contentTitle">
+        <sc:text field="title" />
+        @Html.Sitecore().Field("Title")
+    </h1>
+    <div class="contentDescription">
+        @Html.Sitecore().Field("Text")
+    </div>
+</div>

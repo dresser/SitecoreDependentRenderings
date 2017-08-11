@@ -1,0 +1,87 @@
+----item----
+version: 1
+id: {5D07396D-D21D-4E42-A256-5610FA2C60EC}
+database: master
+path: /sitecore/layout/Renderings/Feature/HelloWorld/Hello World
+parent: {F32F7F82-D64C-4726-9A69-799C76B82877}
+name: Hello World
+master: {00000000-0000-0000-0000-000000000000}
+template: {7E057323-0940-433E-9B47-B084D4CB99C0}
+templatekey: Controller Rendering with Script
+created: 20170317T193500Z
+
+----field----
+field: {E64AD073-DFCC-4D20-8C0B-FE5AA6226CD7}
+name: Controller
+key: controller
+content-length: 10
+
+HelloWorld
+----field----
+field: {DED9E431-3604-4921-A4B3-A6EC7636A5B6}
+name: Controller Action
+key: controller action
+content-length: 10
+
+HelloWorld
+----field----
+field: {1C0AF338-70A8-455F-8366-173135E03BE6}
+name: Placeholder
+key: placeholder
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: d9956d8a-d1bf-4d67-8910-d915e9e165c5
+
+----field----
+field: {DCF3E633-C233-4250-AF3B-926E88F9153E}
+name: Related Renderings
+key: related renderings
+content-length: 38
+
+{68BE40EA-8F64-465D-9D95-13AF83DD4E41}
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20170317T193500Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d9956d8a-d1bf-4d67-8910-d915e9e165c5
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20170803T194632Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
