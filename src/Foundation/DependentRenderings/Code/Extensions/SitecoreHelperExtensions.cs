@@ -4,13 +4,12 @@ using System.Text;
 using System.Web;
 using Sitecore.Foundation.DependentRenderings.Repositories;
 using Sitecore.Mvc.Helpers;
-using Sitecore.Mvc.Presentation;
 
 namespace Sitecore.Foundation.DependentRenderings.Extensions
 {
     public static class SitecoreHelperExtensions
     {
-        public static HtmlString ScriptPlaceholder(this SitecoreHelper sitecoreHelper, string placeholderKey)
+        public static HtmlString DependencyPlaceholder(this SitecoreHelper sitecoreHelper, string placeholderKey)
         {
             var repository = new ComponentScriptsRepository();
             var model = repository.GetComponentScripts(sitecoreHelper.CurrentItem, placeholderKey);
