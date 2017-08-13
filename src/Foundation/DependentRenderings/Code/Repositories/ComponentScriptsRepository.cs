@@ -26,13 +26,13 @@ namespace Sitecore.Foundation.DependentRenderings.Repositories
 
         private List<RenderingWithScript> GetScriptDependentRenderings(Database database)
         {
-            var query = $"/sitecore/layout/Renderings//*[@@templateid='{Templates.ControllerRenderingWithScript.ID}' or @@templateid='{Templates.ViewRenderingWithScript.ID}']";
+            var query = $"/sitecore/layout/Renderings//*[@@templateid='{Templates.ControllerRenderingWithDependency.ID}' or @@templateid='{Templates.ViewRenderingWithDependency.ID}']";
             var items = database.SelectItems(query) ?? new Item[] {};
             return items.Select(i => new RenderingWithScript
             {
                 ID = i.ID,
                 RelatedRenderings =
-                    i.GetMultiListValueItems(Templates.BaseRenderingWithScript.Fields.RelatedRenderings).
+                    i.GetMultiListValueItems(Templates.BaseRenderingWithDependency.Fields.RelatedRenderings).
                         Select(
                             sri =>
                                 new RelatedRendering

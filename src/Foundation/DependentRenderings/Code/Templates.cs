@@ -4,17 +4,17 @@ namespace Sitecore.Foundation.DependentRenderings
 {
     public class Templates
     {
-        public struct ControllerRenderingWithScript
+        public struct ControllerRenderingWithDependency
         {
             public static readonly ID ID = new ID("{7E057323-0940-433E-9B47-B084D4CB99C0}");
         }
 
-        public struct ViewRenderingWithScript
+        public struct ViewRenderingWithDependency
         {
             public static readonly ID ID = new ID("{6BB602DC-7BDE-4AB6-8671-4C7D9D86848D}");
         }
 
-        public struct BaseRenderingWithScript
+        public struct BaseRenderingWithDependency
         {
             public static readonly ID ID = new ID("{186A1259-5C04-43E3-A945-760B6F685BA9}");
 

@@ -1,14 +1,14 @@
 ----item----
 version: 1
-id: {6BB602DC-7BDE-4AB6-8671-4C7D9D86848D}
+id: {7E057323-0940-433E-9B47-B084D4CB99C0}
 database: master
-path: /sitecore/templates/Foundation/DependentRenderings/View Rendering with Script
+path: /sitecore/templates/Foundation/DependentRenderings/Controller Rendering with Dependency
 parent: {D005C2C1-27BC-4576-8F98-ACCAB375D917}
-name: View Rendering with Script
+name: Controller Rendering with Dependency
 master: {00000000-0000-0000-0000-000000000000}
 template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
 templatekey: Template
-created: 20170803T195204Z
+created: 20170312T113606Z
 
 ----field----
 field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
@@ -16,7 +16,7 @@ name: __Base template
 key: __base template
 content-length: 77
 
-{99F8905D-4A87-4EB8-9F8B-A9BEBFB3ADD6}|{186A1259-5C04-43E3-A945-760B6F685BA9}
+{2A3E91A0-7987-44B5-AB34-35C2D9DE83B9}|{186A1259-5C04-43E3-A945-760B6F685BA9}
 ----field----
 field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
 name: __Icon
@@ -27,7 +27,7 @@ Software/32x32/element_copy.png
 ----version----
 language: en
 version: 1
-revision: 6b66140a-1aad-4313-bc98-9f9a22fecf5f
+revision: 383c1802-bc42-4b8b-8aea-7243ac9d02fa
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -49,14 +49,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-6b66140a-1aad-4313-bc98-9f9a22fecf5f
+383c1802-bc42-4b8b-8aea-7243ac9d02fa
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170803T195244Z
+20170813T220759Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

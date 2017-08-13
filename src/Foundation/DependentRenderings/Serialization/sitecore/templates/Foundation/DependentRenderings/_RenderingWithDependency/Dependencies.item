@@ -2,9 +2,9 @@
 version: 1
 id: {74853728-C1E4-4C7B-A308-47899AEECEEE}
 database: master
-path: /sitecore/templates/Foundation/DependentRenderings/_RenderingWithScript/Script Rendering
+path: /sitecore/templates/Foundation/DependentRenderings/_RenderingWithDependency/Dependencies
 parent: {186A1259-5C04-43E3-A945-760B6F685BA9}
-name: Script Rendering
+name: Dependencies
 master: {00000000-0000-0000-0000-000000000000}
 template: {E269FBB5-3750-427A-9149-7AA950B49301}
 templatekey: Template section
@@ -13,7 +13,7 @@ created: 20170312T113957Z
 ----version----
 language: en
 version: 1
-revision: 9009ea71-4d24-4a5a-9d1b-f18060f71096
+revision: fa04be18-c80e-4858-9a23-f51df710fe37
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -35,14 +35,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-9009ea71-4d24-4a5a-9d1b-f18060f71096
+fa04be18-c80e-4858-9a23-f51df710fe37
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20170317T221706Z
+20170813T221111Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

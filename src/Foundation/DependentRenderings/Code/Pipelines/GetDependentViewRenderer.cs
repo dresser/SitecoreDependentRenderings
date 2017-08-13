@@ -15,7 +15,7 @@ namespace Sitecore.Foundation.DependentRenderings.Pipelines
         protected string GetViewPathFromRelatedRenderingItem(Rendering rendering)
         {
             RenderingItem renderingItem = rendering.RenderingItem;
-            if (renderingItem == null || renderingItem.InnerItem.TemplateID != Templates.ViewRenderingWithScript.ID)
+            if (renderingItem == null || renderingItem.InnerItem.TemplateID != Templates.ViewRenderingWithDependency.ID)
                 return (string)null;
             string str = renderingItem.InnerItem["path"];
             if (str.IsWhiteSpaceOrNull())

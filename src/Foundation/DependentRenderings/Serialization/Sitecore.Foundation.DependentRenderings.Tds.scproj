@@ -67,23 +67,23 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\DependentRenderings\_RenderingWithScript.item">
+    <SitecoreItem Include="sitecore\templates\Foundation\DependentRenderings\_RenderingWithDependency.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\DependentRenderings\_RenderingWithScript\Script Rendering.item">
+    <SitecoreItem Include="sitecore\templates\Foundation\DependentRenderings\_RenderingWithDependency\Dependencies.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\DependentRenderings\_RenderingWithScript\Script Rendering\Related Renderings.item">
+    <SitecoreItem Include="sitecore\templates\Foundation\DependentRenderings\_RenderingWithDependency\Dependencies\Dependent Renderings.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\DependentRenderings\Controller Rendering with Script.item">
+    <SitecoreItem Include="sitecore\templates\Foundation\DependentRenderings\Controller Rendering with Dependency.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\Foundation\DependentRenderings\View Rendering with Script.item">
+    <SitecoreItem Include="sitecore\templates\Foundation\DependentRenderings\View Rendering with Dependency.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
