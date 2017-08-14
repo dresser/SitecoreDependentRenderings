@@ -11,7 +11,7 @@ namespace Sitecore.Foundation.DependentRenderings.Extensions
     {
         public static HtmlString DependencyPlaceholder(this SitecoreHelper sitecoreHelper, string placeholderKey)
         {
-            var repository = new ComponentScriptsRepository();
+            var repository = new DependentRenderingsRepository();
             var model = repository.GetComponentScripts(sitecoreHelper.CurrentItem, placeholderKey);
             var output = new StringBuilder();
             var outputEntries = new List<string>();

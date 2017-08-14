@@ -96,15 +96,15 @@
   <ItemGroup>
     <Compile Include="Extensions\ItemExtensions.cs" />
     <Compile Include="Extensions\SitecoreHelperExtensions.cs" />
-    <Compile Include="Models\ComponentScript.cs" />
-    <Compile Include="Models\ComponentScriptCollection.cs" />
-    <Compile Include="Models\ComponentScriptsEqualityComparer.cs" />
-    <Compile Include="Models\RelatedRendering.cs" />
-    <Compile Include="Models\RenderingWithScript.cs" />
+    <Compile Include="Models\RenderingArgs.cs" />
+    <Compile Include="Models\RenderingArgsCollection.cs" />
+    <Compile Include="Models\RenderingArgsEqualityComparer.cs" />
+    <Compile Include="Models\DependentRendering.cs" />
+    <Compile Include="Models\RenderingWithDependency.cs" />
     <Compile Include="Pipelines\GetDependentViewRenderer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\ComponentScriptsRepository.cs" />
-    <Compile Include="Repositories\IComponentScriptsRepository.cs" />
+    <Compile Include="Repositories\DependentRenderingsRepository.cs" />
+    <Compile Include="Repositories\IDependentRenderingsRepository.cs" />
     <Compile Include="Templates.cs" />
   </ItemGroup>
   <ItemGroup>

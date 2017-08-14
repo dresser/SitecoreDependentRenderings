@@ -3,9 +3,9 @@ using Sitecore.Data;
 
 namespace Sitecore.Foundation.DependentRenderings.Models
 {
-    public class RenderingWithScript
+    public class RenderingWithDependency
     {
         public ID ID { get; set; }
-        public IList<RelatedRendering> RelatedRenderings { get; set; }
+        public IList<DependentRendering> RelatedRenderings { get; set; }
     }
 }

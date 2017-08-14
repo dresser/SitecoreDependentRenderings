@@ -3,8 +3,8 @@ using Sitecore.Foundation.DependentRenderings.Models;
 
 namespace Sitecore.Foundation.DependentRenderings.Repositories
 {
-    public interface IComponentScriptsRepository
+    public interface IDependentRenderingsRepository
     {
-        ComponentScriptCollection GetComponentScripts(Item contextItem, string placeholder);
+        RenderingArgsCollection GetComponentScripts(Item contextItem, string placeholder);
     }
 }
